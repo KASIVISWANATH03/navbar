@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.horizontal{
+    width: 100%;
+    margin: 20px 20px 20px 20px;
+    background-color: black;
+    
+    overflow: auto;
+}
+.horizontal a{
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    width:20%;
+    padding: 20px 5px;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+.vertical{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: black;
+    width: 130px;
+    overflow: auto;
+    
+    
+}
+.vertical a{
+    display: block;
+    text-align:center;
+    
+    text-decoration: none;
+    width: 100%;
+    padding: 20px 5px;
+    color:white;
+    font-size: 20px;
+}
+a.home{
+    background-color: green;
+}
+a:hover{
+    background-color: blue;
+}
